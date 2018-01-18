@@ -1,0 +1,15 @@
+esi_inscriptions_accueil:
+    pattern:  /inscriptions/
+    defaults: { _controller: EsiInscriptionsBundle:Inscriptions:index }
+
+esi_inscriptions_voir:
+    pattern:  /inscriptions/inscription/{id}
+    defaults: { _controller: EsiInscriptionsBundle:Inscriptions:voir }
+
+esi_inscriptions_ajouter:
+    pattern:  /inscriptions/ajouter
+    defaults: { _controller: EsiInscriptionsBundle:Inscriptions:ajouter }
+
+esi_inscriptions_supprimer:
+    pattern:  /inscriptions/supprimer/{id}
+    defaults: { _controller: EsiInscriptionsBundle:Inscriptions:supprimer }

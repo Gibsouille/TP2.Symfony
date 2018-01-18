@@ -1,0 +1,4 @@
+esi_inscriptions:
+    resource: "@EsiInscriptionsBundle/Resources/config/routing.yml"
+    prefix:   /
+
